@@ -5,5 +5,277 @@ git add "qukui.txt"
 git commit
 git log
 git status
-git remote add qukui
-git remote -v
+git remote add qk https://github.com/gitqk/qk.git
+git remote
+
+
+
+Administrator@???? MINGW64 /e/git
+$ git init
+Initialized empty Git repository in E:/git/.git/
+
+Administrator@???? MINGW64 /e/git (master)
+$ git ^C
+
+Administrator@???? MINGW64 /e/git (master)
+$ git config --lobal user.name "gitqk"
+error: unknown option `lobal'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+
+Administrator@???? MINGW64 /e/git (master)
+$ ^C
+
+Administrator@???? MINGW64 /e/git (master)
+$ ^C
+
+Administrator@???? MINGW64 /e/git (master)
+$  git config --lobal user.name "gitqk"
+error: unknown option `lobal'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+
+Administrator@???? MINGW64 /e/git (master)
+$ git config --lobal user.name "gitqk"^C
+
+Administrator@???? MINGW64 /e/git (master)
+$ git config --lobal user.name "gitqk"
+error: unknown option `lobal'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+
+Administrator@???? MINGW64 /e/git (master)
+$ ^C
+
+Administrator@???? MINGW64 /e/git (master)
+$ git init
+Reinitialized existing Git repository in E:/git/.git/
+
+Administrator@???? MINGW64 /e/git (master)
+$  git config --global user.name "gitqk"
+
+Administrator@???? MINGW64 /e/git (master)
+$ git config --global user.email "623033023@qq.com"
+
+Administrator@???? MINGW64 /e/git (master)
+$ ^C
+
+Administrator@???? MINGW64 /e/git (master)
+$ git add "qukui.text"^C
+
+Administrator@???? MINGW64 /e/git (master)
+$ ^C
+
+Administrator@???? MINGW64 /e/git (master)
+$  git add "qukui.text"
+fatal: pathspec 'qukui.text' did not match any files
+
+Administrator@???? MINGW64 /e/git (master)
+$  git add "qukui.txt"
+
+Administrator@???? MINGW64 /e/git (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+Administrator@???? MINGW64 /e/git (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+Administrator@???? MINGW64 /e/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   qukui.txt
+
+
+Administrator@???? MINGW64 /e/git (master)
+$ git remate add qk
+git: 'remate' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+Administrator@???? MINGW64 /e/git (master)
+$ git remote add qk
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Administrator@???? MINGW64 /e/git (master)
+$ git remote add qk https://github.com/gitqk/qk.git
+
+Administrator@???? MINGW64 /e/git (master)
+$ git push -master:qk
+error: unknown switch `m'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=(check|on-demand|no)]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+Administrator@???? MINGW64 /e/git (master)
+$ git push qk master:qk
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/gitqk/qk.git'
+
+Administrator@???? MINGW64 /e/git (master)
+$ git push qk master:qk
