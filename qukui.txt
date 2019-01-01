@@ -1,0 +1,9 @@
+git init
+git config --lobal user.name "gitqk"
+git config --global user.email "623033023@qq.com"
+git add "qukui.txt"
+git commit
+git log
+git status
+git remote add qukui
+git remote -v
